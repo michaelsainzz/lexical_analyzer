@@ -1,0 +1,8 @@
+! Test Case 3: Short length !
+@
+boolean flag;
+integer count;
+@
+flag = true;
+count = 10;
+put (count);

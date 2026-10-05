@@ -1,0 +1,17 @@
+! Test Case 2: Medium length, testing reals and conditionals !
+function compare (x real, y real)
+{
+    if (x >= y)
+        put (x);
+    else
+        put (y);
+    fi
+    return .00;
+}
+@
+real a, b;
+@
+a = .50;
+b = 12.00;
+get (a, b);
+compare (a, b);

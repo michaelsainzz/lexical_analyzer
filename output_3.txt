@@ -1,0 +1,23 @@
+Token                Lexeme
+----------------------------------------
+separator            @
+keyword              boolean
+identifier           flag
+separator            ;
+keyword              integer
+identifier           count
+separator            ;
+separator            @
+identifier           flag
+operator             =
+keyword              true
+separator            ;
+identifier           count
+operator             =
+integer              10
+separator            ;
+keyword              put
+separator            (
+identifier           count
+separator            )
+separator            ;
